@@ -11,5 +11,7 @@ namespace Joaquin_Cubero_UWP.Interface
     {
         Task<MeResponse> me();
         Task<CommentResponse> comments(string user, string before, string after, int limit);
+
+        Task<IEnumerable<TopReddit>> GetTop();
     }
 }

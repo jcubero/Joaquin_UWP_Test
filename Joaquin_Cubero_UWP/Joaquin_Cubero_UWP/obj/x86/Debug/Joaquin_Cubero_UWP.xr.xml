@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="ListInbox" />
-    <RootPropertyPathName Name="SelectMessage" />
+    <RootPropertyPathName Name="SelectedTop" />
+    <RootPropertyPathName Name="Thumbnail" />
+    <RootPropertyPathName Name="ListTop" />
     <RootPropertyPathName Name="NumberOfComments" />
     <RootPropertyPathName Name="OnDismissCommand" />
     <RootPropertyPathName Name="Title" />
-    <RootPropertyPathName Name="Thumbnail" />
-    <RootPropertyPathName Name="Hours" />
+    <RootPropertyPathName Name="ThumbnailURL" />
+    <RootPropertyPathName Name="EntryDate" />
     <RootPropertyPathName Name="Author" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -31,6 +32,9 @@
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
     </RootType>
@@ -52,9 +56,6 @@
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Joaquin_Cubero_UWP.MainPage" />
   </Roots.RootTypes>

@@ -46,6 +46,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Reddit": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            },
+            "Reddit.AuthTokenRetrieverLib": {
+              "target": "Package",
+              "version": "[1.3.0, )"
             }
           },
           "imports": [
